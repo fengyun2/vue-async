@@ -58,5 +58,9 @@ app.listen('8001', '0.0.0.0', () => {
 
 在浏览器中输入: `https://localhost:8001`。
 
+**注意**:
+
+node>=9.0， http2服务无法使用...
+
 **参考地址:**
 1. [Nodejs创建https服务器(Windows 7)](http://blog.csdn.net/foruok/article/details/52993948)
