@@ -19,7 +19,7 @@ app.listen('8001', '0.0.0.0', () => {
   console.log('HTTPS Server running at https://0.0.0.0');
 })
 
- const http2App = http2.createServer(options, (req, res) => {
+ const http2App = http2.createSecureServer(options, (req, res) => {
   res.writeHead(200)
    const postData = JSON.stringify({
     data: {
