@@ -9,9 +9,9 @@
     "server": "nodemon server/index.js"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.3",
     "querystring": "^0.2.0",
-    "vue": "^2.5.13"
+    "vue": "^2.5.17"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-beta.6",
